@@ -15,7 +15,7 @@
       <img class="hero-img" src="/images/hero-img.png" alt="hero image">
       <div class="logo-flex">
         <img class="logo" src="/images/logo.png" alt="company name">
-        <span class="logo-undertext">FREELANCE</span>
+        <span class="logo-undertext">Web & Mobile App Development</span>
       </div>
     </div>
     <div class="help">
@@ -52,37 +52,47 @@
       <div class="web-underline dark-blue"></div>
       <div class="email">
         <img class="icon" src="/images/email-icon.png" alt="email icon">
-        <p class="text"> reize@gmail.com</p>
+        <p class="text"> sales@reize.io</p>
       </div>
       <div class="phone">
         <img class="icon" src="/images/phone-icon.png" alt="phone icon">
-        <p class="text"> (908) 450 3120</p>
+        <p class="text"> ‪(703) 539-2091‬</p>
       </div>
     </div>
+  </section>
+  <section class="do-section">
+    <div class="text-box text-box-right">
+      <span class="header text-right">About Us</span>
+      <p class="small-text">
+        Reize - offers digital marketing, branding, website & mobile design & development and more. We work with small to large companies to deliver meaningful brand experiences, drive engagement and amplify conversions. Founded by two brothers who are willing to strive to go above and beyond to meet your needs! 
+      </p>
+    </div>
+    <img src="/images/image-3.svg" alt="web" class="img-right">
   </section>
   <section class="section-form">
     <div class="card">
       <div class="img-box">
-        <img class="card-img" src="/images/card-img.jpg" alt="card image">
+        <img class="card-img" src="/images/card-img.jpg" alt="card image" method="GET">
       </div>
-      <form class="contact" action="submit">
+      <form class="contact" action=”mailto:sales@reize.io?subject=myform_submission" enctype="text/plain">
           <span class="contact-span">Directly Contact Us!</span>
           <div class="contact-box"></div>
           <div class="name-flex">
-            <input type="text" placeholder="first name">
-            <input type="text" placeholder="last name">
+            <input type="text" name="firstName" placeholder="first name">
+            <input type="text" name="lastName" placeholder="last name">
           </div>
           <div class="email-phone-flex">
-            <input type="email" placeholder="email">
-            <input type="tel" placeholder="phone">
+            <input type="email" name="email" placeholder="emailsss">
+            <input type="tel" name="telephone" placeholder="phone">
           </div>
           <div class="textarea">
             <img class="corner" src="/images/corner-1.png" alt="corner-1">
             <textarea name="message" id="message" placeholder="message goes here..."></textarea>
           </div>
-          <button class="submit-btn" disabled>
+          <input class="submit-btn" type="submit" value="Send">
+          <!-- <button class="submit-btn" disabled>
             submit
-          </button>
+          </button> -->
         </form>
     </div>
   </section>

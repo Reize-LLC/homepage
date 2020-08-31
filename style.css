@@ -230,6 +230,16 @@ position: relative;
   transform: translateY(4px);
 }
 
+.small-text {
+  font-size: 20px !important;
+  margin-left: 25%;
+  text-align: center;
+}
+
+.text-right{
+  margin-left: 40%;
+}
+
 @media screen and (max-width: 1594px) {
   html,
   body {
